@@ -1,0 +1,5 @@
+Nucleus lowest volume=15.0
+This configuration file contains the threshold value for the smallest
+nucleus that needs to be considered.
+Nuclei with lower volume will be dropped if volume filtering is active.
+

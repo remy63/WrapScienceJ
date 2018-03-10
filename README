@@ -1,0 +1,20 @@
+WrapScienceJ: an Integrative Platform for Scientific Computing
+
+Version 1.0 (Proof of Concept)
+
+The interoperability platform WrapScienceJ, implemented in Java,  designed for integrative data analysis on a distributed infrastructure. It makes intensive use of the Bridge Design Pattern and Inversion of Control to allow third party Software or Hardware Providers to plug in softwares of their own, either to attract new customers or to ensure compatibility with  their own products. 
+
+The platform uses the contemporary concept of Metaprogramming to project Software Services on different existing platforms or interfaces (e.g. Application Programming Interfaces or Graphical User Interfaces).
+
+The release version id a Proof of Concept which exposes key functionalities in Image Processing, basic Image Display, and an  Open Source implementation based on a Wrapper of the ImageJ API. This already allows:
+
+Very High Standards for Programming Interface Specifications aiming at Highly Reproducible Algorithms;
+	- Higher Level Programming using Unit Tested Functionalities;
+	- Metadata Modeling and automated retrieval of Metadata and automatic dialog generation;
+	- Automated Generation of ready to deploy ImageJ Plugins;
+	- Bridge Design allowing for new Implementation Policies, either for Display, 
+		Graphical User Interface Framework, or Image Processing Core Implementation;
+Examples of Modules built on top of the Platform providing higher level image processing features.
+
+Future versions of the platform aim at transparent combinations of different modalities and data using higher level java programming. The current computations may be performed by another program in a different language, following the Bridge Design Pattern principle and using various ways to enable compatibility (e.g. JNI or Web Services), in a global Service Oriented Architecture (SOA).
+

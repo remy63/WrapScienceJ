@@ -1,0 +1,4 @@
+Thresholding Method=Otsu
+Possible options:
+Huang, Intermodes, IsoData, Li, MaxEntropy, Mean, MinError, Minimum,
+Moments, Otsu, Percentile, RenyEntropy, Triangle, Yen.
